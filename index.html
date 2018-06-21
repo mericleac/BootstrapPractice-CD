@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap Practice</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
 </head>
+
 <body>
     <div class="jumbotron">
         <h1>Bootstrap Practice</h1>
@@ -13,8 +16,7 @@
     </div>
     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="img/logo47.png" alt="Logo Placeholder">
-            Mericle Designs
+            <img src="img/logo47.png" alt="Logo Placeholder"> Mericle Designs
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
             <span class="navbar-toggler-icon"></span>
@@ -43,43 +45,114 @@
             </ul>
         </div>
     </nav>
+    <div id="carousel-controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h3>Hello from some example text.</h3>
+            </div>
+            <div class="carousel-item">
+                <h3>One more...</h3>
+            </div>
+            <div class="carousel-item">
+                <h3>Thank you! Have a nice day.</h3>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container">
     <div class="card">
         <img class="card-img-top" src="img/inTheSnow.JPG" alt="Muskox in the snow">
         <div class="card-body">
             <h5 class="card-title">Muskox in the Snow</h5>
-            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that is what I had available at the time.</p>
+            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that
+                is what I had available at the time.</p>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="img/snowballFight.JPG" alt="Muskox in the snow">
         <div class="card-body">
             <h5 class="card-title">Downed in a Snowball Fight</h5>
-            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that is what I had available at the time.</p>
+            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that
+                is what I had available at the time.</p>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="img/snowFriends.JPG" alt="Muskox in the snow">
         <div class="card-body">
             <h5 class="card-title">Snowmuskox</h5>
-            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that is what I had available at the time.</p>
+            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that
+                is what I had available at the time.</p>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="img/upToMyAntlers.JPG" alt="Muskox in the snow">
         <div class="card-body">
             <h5 class="card-title">Wow it's getting deep</h5>
-            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that is what I had available at the time.</p>
+            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that
+                is what I had available at the time.</p>
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="img/warmingUp.JPG" alt="Muskox in the snow">
         <div class="card-body">
             <h5 class="card-title">Finally warm</h5>
-            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that is what I had available at the time.</p>
+            <p class="card-text">This is my pet muskox. His name is Mustard Muskalini. I am using him as my placeholder pictures because that
+                is what I had available at the time.</p>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </div>
+    <form>
+        <div class="form-group">
+            <h2>Sign up for emails!</h2>
+            <label for="email-input">Email address</label>
+            <input type="email" class="form-control" id="email-input" placeholder="person@email.com">
+        </div>
+        <div class="form-group">
+            <h2>How do you like your potatoes?</h2>
+            <select class="form-control">
+                <option>Mashed</option>
+                <option>Baked</option>
+                <option>French Fries</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-outline-primary btn-lg">Submit</button>
+    </form>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <p>Contact Me:</p>
+                <p>(000)111-2222</p>
+                <p>123 Street Adress</p>
+                <p>City, LZ 123456</p>
+                <p>email@person.com</p>
+            </div>
+            <div class="col-sm">
+                <ul>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                    <li><a href="#">LINKS</a></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <p>Thank you for your time and patience. I hope you enjoyed this sample site. If you would like a site like this one, contact me.</p>
+            </div>
+        </div>
+        <p>Thank you for viewing this website!</p>
+        <p>Copyright &#xa9; Mericle Designs</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

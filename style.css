@@ -14,8 +14,52 @@ div.jumbotron {
     width: 30px;
 }
 
+#carousel-controls {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
 div.card {
     width: 25rem;
-    margin: 4rem;
+    margin: 3rem;
     display: inline-block;
+}
+
+.card img, .card-body {
+    width: 23rem;
+    margin: 1rem;
+}
+
+form {
+    margin: 4rem;
+}
+
+.container-fluid {
+    text-align: center;
+    background-color: darkgray;
+    padding-bottom: 20px;
+}
+
+.row .col-sm {
+    margin-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.col-sm:nth-child(2) {
+    border-left: solid 2px #7a7676;
+    border-right: solid 2px #7a7676;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    color: black;
 }
