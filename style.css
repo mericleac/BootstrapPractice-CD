@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+div.jumbotron {
+    margin-bottom: 0em;
+    background-color: #e99e9e;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 30px;
+}
+
+div.card {
+    width: 25rem;
+    margin: 4rem;
+    display: inline-block;
+}
